@@ -2,7 +2,16 @@
  *
  * Created by: Elliott
  * Created on: Sep 2024
- * This program says hello world
+ * This program dose ARea and primeter. basic math
 */
 
-basic.showString('Hello, World!')
+basic.clearScreen()
+basic.pause(1000)
+
+basic.showString('Area =' + (5 * 3).toString())
+
+basic.pause(1000)
+basic.clearScreen()
+basic.pause(1000)
+
+basic.showString('Primeter =' + (2 * ( 2 + 3 )).toString())
